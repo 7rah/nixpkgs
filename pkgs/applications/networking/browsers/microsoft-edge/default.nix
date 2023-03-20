@@ -9,7 +9,7 @@
     channel = "dev";
     version = "113.0.1741.1";
     revision = "1";
-    sha256 = "sha256:1bk7dx3mf020ahzmvr9cdgcn72rjrn2420j9g362vwcl1khyxciw";
+    sha256 = "sha256-1d92bQAoiTkqWgiWdUBn3VKBYCRP1KCvPiu7cQTFVio=";
   };
   stable = import ./browser.nix {
     channel = "stable";
