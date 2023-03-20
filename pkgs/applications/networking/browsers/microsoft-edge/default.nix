@@ -7,7 +7,7 @@
   };
   dev = import ./browser.nix {
     channel = "dev";
-    version = "109.0.1495.2";
+    version = "113.0.1741.1";
     revision = "1";
     sha256 = "sha256:1bk7dx3mf020ahzmvr9cdgcn72rjrn2420j9g362vwcl1khyxciw";
   };
