@@ -132,10 +132,6 @@ stdenv.mkDerivation rec {
       opt/microsoft/${shortName}/libGLESv2.so
 
     patchelf \
-      --set-rpath "${libPath.libsmartscreen}" \
-      opt/microsoft/${shortName}/libsmartscreen.so
-
-    patchelf \
       --set-rpath "${libPath.liboneauth}" \
       opt/microsoft/${shortName}/liboneauth.so
   '';
