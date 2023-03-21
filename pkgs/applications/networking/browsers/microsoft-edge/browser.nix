@@ -136,10 +136,6 @@ stdenv.mkDerivation rec {
       opt/microsoft/${shortName}/libsmartscreen.so
 
     patchelf \
-      --set-rpath "${libPath.libsmartscreenn}" \
-      opt/microsoft/${shortName}/libsmartscreenn.so
-
-    patchelf \
       --set-rpath "${libPath.liboneauth}" \
       opt/microsoft/${shortName}/liboneauth.so
   '';
